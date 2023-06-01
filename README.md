@@ -35,10 +35,10 @@ GitHub Pages: Hosting service for deploying the website.
 The following image shows the web application's appearance and functionality:
 
 ## Desktop Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/PC-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/Images/PC-Layout.png)
 ## Tablet Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/Medium-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/Images/Medium-Layout.png)
 ## Mobile Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/Mobile-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/Images/Mobile-Layout.png)
 
 
