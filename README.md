@@ -5,10 +5,10 @@ This repository contains the code and assets for my personal portfolio website. 
 This project is mainly focused on showing up my skills in CSS and HTML coding, and to improve on it as I progress through my learning journey.
 
 ## GitHub Repo URL
-https://github.com/AllenHirmiz/First-Challenge-HomeWork
+https://github.com/AllenHirmiz/Protfolio-Website-Advanced-CSS
 
 ## Website URL
-https://allenhirmiz.github.io/First-Challenge-HomeWork/Develop/index.html
+https://allenhirmiz.github.io/Protfolio-Website-Advanced-CSS/main/
 
 ## Table of Contents
 Navigation menu
@@ -35,10 +35,10 @@ GitHub Pages: Hosting service for deploying the website.
 The following image shows the web application's appearance and functionality:
 
 ## Desktop Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./main/assets/images/PC-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/PC-Layout.png)
 ## Tablet Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./main/assets/images/Medium-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/Medium-Layout.png)
 ## Mobile Layout
-![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./main/assets/images/Mobile-Layout.png)
+![Allen Hirmiz Protfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with footer](./assets/images/Mobile-Layout.png)
 
 
