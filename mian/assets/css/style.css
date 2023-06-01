@@ -1,5 +1,5 @@
+/* Set office colours variables */
 :root {
-  /* declare a variable with `--` syntax */
   --text-main: #070c0e;
   --text-second: #4a7c7c;
   --color-main: #202229;
@@ -9,11 +9,13 @@
   --color-background3: #43B3D9;
 }
 
+/* Global style changes */
 * {
   box-sizing: border-box;
   font: "Fira Sans", serif;
 }
 
+/* header styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -22,28 +24,25 @@ header {
   background-color: var(--color-background2);
   }
 
-main {
-  width: fit-content;
-}
-
-  
-  .logo {
+  /* Logo Styles */
+.logo {
   background: var(--text-main);
   width: 8em;
   margin: 10px 0px;
   text-align: right;
-  }
-  
-  .logo a {
-  text-decoration: none;
-  color: var(--text-second)
-  }
-  
-  .logo a:link,a:hover {
-  text-decoration: none;
-  color: var(--color-second)
-  }
-  
+}
+
+.logo a {
+text-decoration: none;
+color: var(--text-second)
+}
+
+.logo a:link,a:hover {
+text-decoration: none;
+color: var(--color-second)
+}
+ 
+/* Navigation style */
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -71,6 +70,7 @@ nav a:hover {
   color:var(--color-second);  
 }
 
+/* Global Body style changes of the website */
 body {
   font-family: Arial;
   margin: 0;
@@ -82,7 +82,55 @@ body {
 }
 
 
+/* Main Style Section of the website */
+main {
+  width: fit-content;
+}
 
+.main-div {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  font-size: 200%;
+  }
+  
+h2 {
+margin: 2% 0;
+font-size: 250%;
+}
+
+div h1 {
+  font-size: 100%;
+  }
+
+/* Cover Style */
+.cover {
+  width: fit-content;
+  width: 100vw;
+  height: 30vh;
+}
+
+.cover img {
+  display: fill;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+  
+.cover-text {
+  display: block;
+  position: absolute;
+  width: 16em;
+  text-align: center;
+  right: 0;
+  background-color: var(--color-background2);
+  padding: 10px;
+  margin: -80px 50px;
+}
+
+/* left side section of the website CSS style*/
 aside {
   flex: 1;
   text-align: right;
@@ -91,21 +139,7 @@ aside {
   margin: 10px;
 }
 
-footer {
-  width: 100%;
-  bottom: 0;
-  padding: 20px;
-  text-align: center;
-  background: var(--color-background);
-  color: var(--text-main);
-  margin-top: auto;
-}
-
-.main-div {
-  display: flex;
-  width: 100%;
-}
-
+/* Products and Work section style changes */
 
 .products {
   flex: 4;
@@ -117,13 +151,11 @@ footer {
   align-items: flex-start;
 }
 
-/* Added rotation, box-shadow, border-radius */
 .card {
   display: block;
   position: relative;
   align-items: center;
-  border: 5px solid var(--color-background);
-  
+  border: 5px solid var(--color-background);  
   margin: 1%;
   width: 48%;
   height: auto;
@@ -187,43 +219,8 @@ opacity: 0.7;
   }
 
 
-h1 {
-  font-size: 200%;
-  }
-  
-h2 {
-margin: 2% 0;
-font-size: 250%;
-}
 
-div h1 {
-  font-size: 100%;
-  }
-
-.cover {
-  width: fit-content;
-  width: 100vw;
-  height: 30vh;
-}
-
-.cover img {
-  display: fill;
-  width: 100%;
-  height: 30vh;
-  object-fit: cover;
-}
-  
-.cover-text {
-  display: block;
-  position: absolute;
-  width: 16em;
-  text-align: center;
-  right: 0;
-  background-color: var(--color-background2);
-  padding: 10px;
-  margin: -80px 50px;
-}
-
+/* Contact Me section style changes*/
 .contact-me {
   flex: 4;
   padding: 20px;
@@ -262,7 +259,22 @@ div h1 {
   border-color: var(--text-second);
 }
 
-@media screen and (max-width: 900px) {
+
+/* Footer section Style*/
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--color-background);
+  color: var(--text-main);
+  margin-top: auto;
+}
+
+
+
+/* Mobile CSS changes*/
+@media screen and (max-width: 769px) {
   header, main, .main-div {
     flex-direction: column;
     width: 100%;
@@ -319,7 +331,7 @@ div h1 {
 
 }
 
-
+/* Tablet CSS changes*/
 @media screen and (max-width: 1100px) {
 
 
