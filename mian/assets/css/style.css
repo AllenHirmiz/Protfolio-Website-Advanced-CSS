@@ -313,7 +313,7 @@ div h1 {
 
   .card-title {
     padding: 5px;
-    width: 10em;
+    
   }
 
 }
@@ -323,16 +323,16 @@ div h1 {
 
 
   .contact-me ul {
-    display: inline-block;
+    display: block;
     align-items: center;
   }
 
   .contact-me a{
-    align-items: inline-block;
+    align-items: block;
   }
 
   .contact-me li{
-    align-items: inline-block;
+    align-items: block;
   }
 
 
