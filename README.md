@@ -5,7 +5,7 @@ This repository contains the code and assets for my personal portfolio website. 
 This project is mainly focused on showing up my skills in CSS and HTML coding, and to improve on it as I progress through my learning journey.
 
 ## GitHub Repo URL
-https://github.com/AllenHirmiz/Protfolio-Website-Advanced-CSS
+https://github.com/dingogap/Fit-Connect-Pro
 
 ## Website URL
 https://allenhirmiz.github.io/Protfolio-Website-Advanced-CSS/main/
